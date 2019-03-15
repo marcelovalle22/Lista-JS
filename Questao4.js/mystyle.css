@@ -1,0 +1,18 @@
+body {
+    margin: 0 30px
+}
+p{
+    font-size: 15pt;
+    text-align: justify;
+    text-indent: 50px;
+}
+input {
+    outline: none;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+}
+#exibir {
+    display: none;
+}

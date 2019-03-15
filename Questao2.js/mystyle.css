@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: blueviolet
+}
+#core {
+    height: 100px;
+    background-color: aqua;
+}
+a :any-link {
+    font-size: 30pt;
+    margin: 50px;
+}
+a :hover{
+    font-size: 20pt;
+    margin: 60px;
+}
+a:hover {
+    font-weight: bold;
+}
+
+#green:any-link {
+    color: violet
+}
+
+#yellow:any-link {
+    color: pink;
+}
+
+#blue:any-link {
+    color: red;
+}
+
+#white:any-link {
+    color: black
+}
