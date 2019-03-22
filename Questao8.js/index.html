@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="muda.js"></script>
+    </head>
+    <body>
+    <form action="" method="post">
+        <input type="text" id="name" placeholder="Name">
+        <input type="radio" name="pernon" class="pernon" id="pernon" onclick="verificarRadio()" checked>Fisica
+        <input type="radio" name="pernon" class="pernon" id="pernon" onclick="verificarRadio()">Juridica
+        <input type="number" id="cpf" placeholder="CPF" >
+        <input type="number" id="cnpj" placeholder="CNPJ">
+        <input type="date" id="data_nascimento">
+        <input type="text" id="endereco" placeholder="Endereço">
+        <input type="number" id="cep" placeholder="CEP">
+        <input type="number" id="telefone" placeholder="Telefone">
+        <input type="email" id="email" placeholder="Email">
+        <input type="button" value="Cadastrar" onclick="cadastrar()">
+        </form>
+    </body>
+</html>
